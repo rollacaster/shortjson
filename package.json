@@ -1,0 +1,19 @@
+{
+  "name": "shortjson",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "json",
+    "formatting",
+    "cli"
+  ],
+  "author": "Thomas Sojka",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}

@@ -1,4 +1,5 @@
 const fixture = require('./fixture.json')
+const fixture2 = require('./fixture2.json')
 
 const shortjson = require('.')
 
@@ -29,5 +30,21 @@ describe('shortjson ', () => {
   "data": "<!DOCTYPE html><html xmlns:cc=\\"http://creativecommons.org/ns..."
 }`
     )
+  })
+
+  it('shortify dom array', () => {
+    expect(shortjson(fixture2)).toEqual(`[
+  {
+    "type": "tag",
+    "name": "strong",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "attribs": {
+      "class": "markup--strong markup--p-strong"
+    }
+  },
+  null,
+  null,
+  null
+]`)
   })
 })

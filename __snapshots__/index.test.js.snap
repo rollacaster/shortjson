@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shortjson  shortify axios request 1`] = `
+"{ status: [33m200[39m,
+  statusText: [32m'OK'[39m,
+  headers: 
+   { server: [32m'openresty'[39m,
+     date: [32m'Tue, 10 Oct 2017 16:17:06 GMT'[39m,
+     [32m'content-type'[39m: [32m'text/html; charset=utf-8'[39m,
+     [32m'content-length'[39m: [32m'148530'[39m },
+  config: 
+   { transformRequest: {},
+     transformResponse: {},
+     timeout: [33m0[39m,
+     xsrfCookieName: [32m'XSRF-TOKEN'[39m },
+  request: { domain: [1mnull[22m, _events: {}, _eventsCount: [33m5[39m, output: [] },
+  data: [32m'<!DOCTYPE html><html xmlns:cc=\\"http://creativecommons.org/ns#\\"><head prefix=\\"og: http://ogp.me/ns# f...148200 more characters'[39m }"
+`;
+
+exports[`shortjson  shortify dom array 1`] = `
+"[ { type: [32m'tag'[39m,
+    name: [32m'strong'[39m,
+    namespace: [32m'http://www.w3.org/1999/xhtml'[39m,
+    attribs: { class: [32m'markup--strong markup--p-strong'[39m },
+    [32m'x-attribsNamespace'[39m: {},
+    [32m'x-attribsPrefix'[39m: {},
+    children: { [32m'0'[39m: [36m[Object][39m },
+    parent: 
+     { type: [32m'tag'[39m,
+       name: [32m'p'[39m,
+       namespace: [32m'http://www.w3.org/1999/xhtml'[39m,
+       attribs: [36m[Object][39m } },
+  [1mnull[22m,
+  [1mnull[22m,
+  [1mnull[22m,
+  [1mnull[22m,
+  [1mnull[22m,
+  [1mnull[22m,
+  [1mnull[22m,
+  [1mnull[22m,
+  [1mnull[22m,
+  [1mnull[22m,
+  [1mnull[22m,
+  [1mnull[22m,
+  [1mnull[22m,
+  ... 6 more items ]"
+`;
+
+exports[`shortjson  should shot a nested object 1`] = `
+"{ a: 
+   { b: [32m'asfasdfasdfasdfasdfasdfasdfasdfasfasdfasdfasdfasdfasdfasdfasdfasfasdfasdfasdfasdfasdfasdfasdfasfasdfasdfasdfasdfasdfasdfasdfasfasdfasdfasdfasdfasdfasdfasdfasfasdfasdfasdfasdfasdfasdfasdf'[39m } }"
+`;

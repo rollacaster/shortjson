@@ -1,6 +1,6 @@
 {
   "name": "shortjson",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "formatting",
     "cli"
   ],
+  "repository": "https://github.com/rollacaster/shortjson",
   "author": "Thomas Sojka",
   "license": "MIT",
   "dependencies": {
